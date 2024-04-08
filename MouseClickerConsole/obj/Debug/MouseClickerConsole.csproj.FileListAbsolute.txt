@@ -10,3 +10,15 @@ Z:\Repositories\AutoClicker\MouseClickerConsole\bin\Debug\Microsoft.VisualStudio
 Z:\Repositories\AutoClicker\MouseClickerConsole\bin\Debug\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
 Z:\Repositories\AutoClicker\MouseClickerConsole\obj\Debug\MouseCli.78A07379.Up2Date
 Z:\Repositories\AutoClicker\MouseClickerConsole\bin\Debug\SimWinMouse.dll
+Z:\Repositories\AutoClicker\GranblueBot\MouseClickerConsole\bin\Debug\MouseClickerConsole.exe.config
+Z:\Repositories\AutoClicker\GranblueBot\MouseClickerConsole\bin\Debug\MouseClickerConsole.exe
+Z:\Repositories\AutoClicker\GranblueBot\MouseClickerConsole\bin\Debug\MouseClickerConsole.pdb
+Z:\Repositories\AutoClicker\GranblueBot\MouseClickerConsole\bin\Debug\Microsoft.VisualStudio.TestTools.UITest.Extension.dll
+Z:\Repositories\AutoClicker\GranblueBot\MouseClickerConsole\bin\Debug\SimWinMouse.dll
+Z:\Repositories\AutoClicker\GranblueBot\MouseClickerConsole\bin\Debug\Microsoft.VisualStudio.Interop.dll
+Z:\Repositories\AutoClicker\GranblueBot\MouseClickerConsole\bin\Debug\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
+Z:\Repositories\AutoClicker\GranblueBot\MouseClickerConsole\obj\Debug\MouseClickerConsole.csproj.AssemblyReference.cache
+Z:\Repositories\AutoClicker\GranblueBot\MouseClickerConsole\obj\Debug\MouseClickerConsole.csproj.CoreCompileInputs.cache
+Z:\Repositories\AutoClicker\GranblueBot\MouseClickerConsole\obj\Debug\MouseCli.78A07379.Up2Date
+Z:\Repositories\AutoClicker\GranblueBot\MouseClickerConsole\obj\Debug\MouseClickerConsole.exe
+Z:\Repositories\AutoClicker\GranblueBot\MouseClickerConsole\obj\Debug\MouseClickerConsole.pdb

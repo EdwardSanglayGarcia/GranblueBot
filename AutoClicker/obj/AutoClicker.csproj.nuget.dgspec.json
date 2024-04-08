@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Repositories\\AutoClicker\\AutoClicker\\AutoClicker.csproj": {}
+    "Z:\\Repositories\\AutoClicker\\GranblueBot\\AutoClicker\\AutoClicker.csproj": {}
   },
   "projects": {
-    "Z:\\Repositories\\AutoClicker\\AutoClicker\\AutoClicker.csproj": {
+    "Z:\\Repositories\\AutoClicker\\GranblueBot\\AutoClicker\\AutoClicker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Repositories\\AutoClicker\\AutoClicker\\AutoClicker.csproj",
+        "projectUniqueName": "Z:\\Repositories\\AutoClicker\\GranblueBot\\AutoClicker\\AutoClicker.csproj",
         "projectName": "AutoClicker",
-        "projectPath": "Z:\\Repositories\\AutoClicker\\AutoClicker\\AutoClicker.csproj",
+        "projectPath": "Z:\\Repositories\\AutoClicker\\GranblueBot\\AutoClicker\\AutoClicker.csproj",
         "packagesPath": "C:\\Users\\Edward Garcia\\.nuget\\packages\\",
-        "outputPath": "Z:\\Repositories\\AutoClicker\\AutoClicker\\obj\\",
+        "outputPath": "Z:\\Repositories\\AutoClicker\\GranblueBot\\AutoClicker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Edward Garcia\\AppData\\Roaming\\NuGet\\NuGet.Config",

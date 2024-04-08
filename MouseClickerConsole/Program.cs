@@ -16,19 +16,17 @@ namespace MouseClickerConsole
         {
             int xCoordinate, yCoordinate, runCounter;
 
-            while (true)
-            {
-                Console.Clear();
-                Console.WriteLine($"Summon 1 - [254,355]\nSummon 2 - [254,421]\nSummon 3 - [254,502]\nSummon 4 - [249,586]\n");
-                Console.WriteLine($"Input X Coordinate:");
-                xCoordinate = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine($"Input Y Coordinate:");
-                yCoordinate = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine($"Input Number Reset");
-                runCounter = Convert.ToInt32(Console.ReadLine());
-                
-                PerformBot(xCoordinate,yCoordinate,runCounter);
-            }
+            Console.Clear();
+            Console.WriteLine($"Summon 1 - [254,355]\nSummon 2 - [254,421]\nSummon 3 - [254,502]\nSummon 4 - [249,586]\n");
+            Console.WriteLine($"Input X Coordinate:");
+            xCoordinate = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Input Y Coordinate:");
+            yCoordinate = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Input Number Reset");
+            runCounter = Convert.ToInt32(Console.ReadLine());
+
+            PerformBot(xCoordinate, yCoordinate, runCounter);
+
 
             #region Test
             //GetLivePositions();
@@ -40,7 +38,6 @@ namespace MouseClickerConsole
         static void RecoverPots()
         {
             Thread.Sleep(2000);
-
 
             SimMouse.Click(MouseButtons.Left, 101, 98);
             Thread.Sleep(4000);
