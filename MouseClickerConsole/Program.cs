@@ -14,51 +14,62 @@ namespace MouseClickerConsole
     {
         static void Main(string[] args)
         {
-            int xCoordinate, yCoordinate, runCounter;
-
-            Console.Clear();
-            Console.WriteLine($"Summon 1 - [254,355]\nSummon 2 - [254,421]\nSummon 3 - [254,502]\nSummon 4 - [249,586]\n");
-            Console.WriteLine($"Input X Coordinate:");
-            xCoordinate = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Input Y Coordinate:");
-            yCoordinate = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Input Number Reset");
-            runCounter = Convert.ToInt32(Console.ReadLine());
-
-            PerformBot(xCoordinate, yCoordinate, runCounter);
-
+            RunningProgram();
 
             #region Test
             //GetLivePositions();
-            //RecoverPots();
+            //RecoverPots(3);
             #endregion
 
         }
 
-        static void RecoverPots()
+        static void RunningProgram()
         {
-            Thread.Sleep(2000);
+            int summonNumber, runCounter;
 
-            SimMouse.Click(MouseButtons.Left, 101, 98);
-            Thread.Sleep(4000);
-
-            SimMouse.Click(MouseButtons.Left, 228, 152);
-            Thread.Sleep(4000);
-
-            SimMouse.Click(MouseButtons.Left, 316, 569);
-            Thread.Sleep(4000);
-
-            SimMouse.Click(MouseButtons.Left, 321, 626);
-            Thread.Sleep(4000);
-
-            SimMouse.Click(MouseButtons.Left, 326, 602);
-            Thread.Sleep(4000);
-
-            SimMouse.Click(MouseButtons.Left, 268, 590);
-            Thread.Sleep(2000);
+            Console.WriteLine($"Input Summon Number:");
+            summonNumber = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine($"Input Number Reset");
+            runCounter = Convert.ToInt32(Console.ReadLine());
+            
+            PerformBot(summonNumber, runCounter);
         }
 
-        static void PerformBot(int xValue, int yValue, int botResetCount)
+        static void RecoverPots(int numberOfPots)
+        {
+
+            Thread.Sleep(2000);
+
+            //Raid
+            SimMouse.Click(MouseButtons.Left, 101, 98);
+            Thread.Sleep(1500);
+
+            //Potion
+            SimMouse.Click(MouseButtons.Left, 236, 153);
+            Thread.Sleep(1500);
+
+            //Quantity
+            SimMouse.Click(MouseButtons.Left, 295, 547);
+            Thread.Sleep(1500);
+
+
+            int potCoordinateSelection = 548 + (numberOfPots * 20);
+
+            //Selection
+            SimMouse.Click(MouseButtons.Left, 320, potCoordinateSelection);
+            Thread.Sleep(1500);
+
+            //Use
+            SimMouse.Click(MouseButtons.Left, 329, 577);
+            Thread.Sleep(1500);
+
+            //OK
+            SimMouse.Click(MouseButtons.Left, 261, 588);
+            Thread.Sleep(1500);
+        }
+
+        static void PerformBot(int summonCount, int botResetCount)
         {
             int numberOfRuns = 1;
             while (true)
@@ -66,10 +77,12 @@ namespace MouseClickerConsole
                 Point mouseObject = Cursor.Position;
                 Thread.Sleep(3000);
 
+                //Raid
                 SimMouse.Click(MouseButtons.Left, 231, 99);
                 Thread.Sleep(2000);
 
-                SimMouse.Click(MouseButtons.Left, xValue, yValue);
+                //Select
+                SimMouse.Click(MouseButtons.Left, 254, (summonCount*70)+283);
                 Thread.Sleep(2000);
 
                 SimMouse.Click(MouseButtons.Left, 323, 507);
@@ -79,7 +92,7 @@ namespace MouseClickerConsole
                 SimMouse.Click(MouseButtons.Left, 254, 355);
                 SimMouse.Click(MouseButtons.Left, 254, 355);
 
-                Thread.Sleep(7000);
+                Thread.Sleep(6500);
 
                 SendKeys.SendWait("{F5}");
                 Thread.Sleep(2000);
@@ -88,7 +101,7 @@ namespace MouseClickerConsole
                 {
                     numberOfRuns = 1;
                     Thread.Sleep(2000);
-                    RecoverPots();
+                    RecoverPots(Math.Abs(botResetCount / 2) -1);
                 }
 
                 numberOfRuns++;
