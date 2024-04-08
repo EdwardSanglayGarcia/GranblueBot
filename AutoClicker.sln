@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoClicker", "AutoClicker\AutoClicker.csproj", "{28A50D9C-7860-42D0-A871-F4392A0B0854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseClickerConsole", "MouseClickerConsole\MouseClickerConsole.csproj", "{2D8D19F0-83C3-4176-A3F8-498AA81416C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A50D9C-7860-42D0-A871-F4392A0B0854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A50D9C-7860-42D0-A871-F4392A0B0854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A50D9C-7860-42D0-A871-F4392A0B0854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A50D9C-7860-42D0-A871-F4392A0B0854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D8D19F0-83C3-4176-A3F8-498AA81416C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8D19F0-83C3-4176-A3F8-498AA81416C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8D19F0-83C3-4176-A3F8-498AA81416C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8D19F0-83C3-4176-A3F8-498AA81416C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C150DF51-4A84-45E7-8F7F-F7802E8DBD25}
+	EndGlobalSection
+EndGlobal

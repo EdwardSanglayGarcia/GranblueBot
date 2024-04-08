@@ -1,0 +1,4 @@
+Z:\Repositories\AutoClicker\Clicker\obj\Debug\net8.0\Clicker.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Repositories\AutoClicker\Clicker\obj\Debug\net8.0\Clicker.AssemblyInfoInputs.cache
+Z:\Repositories\AutoClicker\Clicker\obj\Debug\net8.0\Clicker.AssemblyInfo.cs
+Z:\Repositories\AutoClicker\Clicker\obj\Debug\net8.0\Clicker.csproj.CoreCompileInputs.cache
